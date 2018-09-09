@@ -1,0 +1,93 @@
+body {
+    font-family: 'Baloo Tammudu', cursive;
+}
+
+input {
+    font-family: 'Baloo Tammudu', cursive !important;
+}
+
+select {
+    font-family: 'Baloo Tammudu', cursive !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contain_date-range {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.drop_down-list {
+    border: 0;
+    width: 80px;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.material-icons {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 0px 7px 0px;
+    margin-bottom: 10px;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.but_send {
+    width: 100px;
+    position: relative;
+    border-radius: 2px;
+    border: 0;
+    font-size: 16px;
+    background: royalblue;
+    color: white;
+    font-weight: 700;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.DateRangePickerInput,
+.DateRangePickerInput_1,
+.DateRangePickerInput__withBorder,
+.DateRangePickerInput__withBorder_2 {
+    border: 0;
+}
