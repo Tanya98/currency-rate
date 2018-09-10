@@ -2,6 +2,8 @@
 
 Examination task
 
+Demo: https://currencyrate.netlify.com/
+
 ## Getting Started
 
 install all project dependencies
